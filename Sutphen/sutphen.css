@@ -1,0 +1,323 @@
+.carousel-inner>.item>img {
+  height: 600px;
+}
+.rotateCounterClock {
+  margin-top: 75px;
+  transform: rotate(270deg);
+  max-width: 600px !important;
+  height: 450px !important;
+}
+.rotateClock {
+  margin-top: 75px;
+  transform: rotate(90deg);
+  max-width: 600px !important;
+  height: 450px !important;
+}
+.carousel img {
+  max-height: 600px !important;
+}
+/* Swap height with width for rotated images */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Custom Properties, update these for your own design */
+
+:root {
+    --ff-primary: 'Lovelo-Black';
+    --ff-secondary: 'Roboto', serif;
+    
+    --fw-reg: 400;
+    --fw-bold: 700;
+    
+    --clr-light-three: #b3f2eb;
+    --clr-light-two: #7ee7f2;
+    --clr-light-one: #3fc5e0;
+    --clr-dark-two: #1277c9;
+    --clr-dark-one: #031e63;
+    
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+    
+    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+          0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+
+@media (min-width: 800px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 2.0rem;
+        --fs-body: 1.125rem;
+    }
+}
+
+
+/* Typography */
+
+h1,
+h2,
+h3 {
+    line-height: 1;
+    margin: 0;
+    font-family: 'Holtwood One SC' !important;
+  color: #ffa900 !important;
+}
+.architecture-site h1,
+.architecture-site h2 {
+  font-family: 'Anton' !important;
+  color: #0077b6 !important;
+}
+.architecture-site .jumbotron h1 {
+  font-size: 85px;
+}
+
+h1 { font-size: var(--fs-h1) }
+h2 { font-size: var(--fs-h2) }
+h3 { font-size: var(--fs-h3) }
+
+/* end of custom propertys */
+
+body {
+  background: var(#fff);
+  color: var(--clr-dark-one);
+  margin: 0;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+  line-height: 1.6;
+}
+
+header {
+  
+}
+
+section {
+    padding: 5em 2em;
+}
+
+/* logo */
+
+.logo {
+  
+}
+h2, i, p {
+  font-family: var(--ff-secondary);
+  color: #E2711D;
+}
+.architecture-site h2, .architecture-site i, .architecture-site p {
+  color: #00b4d8;
+}
+.nav-toggle {
+  
+}
+
+.hamburger {
+  
+}
+
+.navbar-default {
+  background-color: transparent;
+}
+nav {
+  background-color: transparent;
+  border-color: transparent !important;
+  transition: background-color 0.3s;
+/*   overflow: hidden; */
+}
+nav a {
+  font-size: 17px;
+  color: #ffc466  !important;
+  font-family: 'Roboto';
+  transition: color 0.3s;
+  padding: 15px 6px !important;
+}
+.architecture-site nav a {
+  color: #00b4d8 !important;
+}
+nav .in {
+  background-color: #fff;
+}
+.in ul:not(.dropdown-menu), .collapsing ul:not(.dropdown-menu) {
+  display: block !important;
+}
+.navbar-default .navbar-nav a {
+  transition: background-color 0.1s;
+}
+.navbar-default .navbar-nav>.open>a {
+  background-color: #b57611 !important;
+}
+.architecture-site .navbar-default .navbar-nav>.open>a {
+  background-color: #96e7f7 !important;
+}
+@media (max-width: 1465px) and (min-width: 768px) {
+  nav ul {
+    display: none;
+  }
+  .navbar-toggle {
+    display: block !important;
+  }
+  .navbar-header {
+    float: none;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav {
+    margin: 7.5px -15px;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+
+.container-fluid {
+  
+}
+
+.navbar-header {
+  
+}
+
+.sr-only {
+  
+}
+
+.icon-bar {
+  
+}
+
+.navbar-brand {
+  padding: 1px 15px 7px 15px !important;
+}
+
+.collapse {
+  
+}
+
+.nav {
+  
+}
+
+/* jumbotron */
+
+.jumbo {
+  padding: 0;
+}
+
+
+#jumbotron-container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.jumbotron {
+  border-radius: 0px !important;
+  font-family: var(--ff-secondary);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  border: 3px;
+  margin-bottom: 0px;
+/*   border-style: solid;
+  border-color: var(#031e63) */
+}
+.wood {
+  background-image: url('https://i.imgur.com/ZJ3VkHU.jpeg');
+}
+.cabinet {
+  background-image: url('https://i.imgur.com/b8IKMFc.jpeg');
+  background-size: cover;
+}
+.architecture {
+  background-image: url('https://i.imgur.com/ffdP63E.jpeg');
+}
+
+.jumbo_title {
+  
+}
+
+.jumbo_subtitle {
+  
+}
+
+.container {
+  
+}
+
+/* intro */
+
+.intro {
+  background: white;
+  padding-top:1rem;
+  
+  
+}
+
+.page-header {
+  
+}
+
+.page-header > i {
+  font-size: 18px;
+}
+.jumbotron > h1, .jumbotron > p {
+  text-align: center;
+}
+.jumbotron > p {
+  font-style: italic;
+  font-size: 25px;
+  color: #ffbb4d;
+}
+.architecture-site .jumbotron > p {
+  color: #00b4d8;
+}
+.background {
+  background-color: #dbdbdb;
+}
+p {
+  font-size: 20px;
+}
+.intro_title {
+  
+}
+
+.intro_subtitle {
+  
+}
+
+.intro_img {
+  margin-left: 1rem;
+}
+
+.intro_body {
+  text-align: center;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+/*   width: 100%; */
+}
+hr {
+  border-top: 2px dashed #ffa900;
+  margin: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+footer {
+  background-color: black;
+  margin: 0px;
+  padding: 40px 50px;
+}
+footer > p {
+  margin: 0px;
+}
+#background {
+  
+}

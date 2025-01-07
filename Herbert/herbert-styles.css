@@ -1,0 +1,96 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+
+@font-face {
+  font-family: Lovelo-Black;
+  src: url(Lovelo-Black.woff2);
+}
+.carousel {
+  width:80%;
+  text-align: center;
+  margin: auto;
+
+}
+
+.top{
+  padding-top: 10%; }
+iframe{
+  width: 80%;
+}
+.pfooter {
+  background-color: #404040;
+  color: white;
+  font-size:16pt;
+}
+
+.text-center{
+  text-align:center;
+}
+
+.active{
+  color:black; !important
+/*   background-color:#00B4D8; */
+}
+
+/* li:hover{
+  background-color:#90E0EF;
+} */
+
+nav a:not(.navbar-brand) {
+  border-bottom-style: solid;
+  border-bottom-color: #00abcd;
+  border-bottom-width: 0px;
+  padding-bottom: 2px;
+  margin-bottom: 15px;
+  margin-top:15px;
+  padding-top:2px;
+  padding-left: 1px !important;
+  padding-right: 1px !important;
+  margin-left: 6px;
+  margin-right: 6px;
+/*   transition: border-bottom-width 0.2s, margin-bottom 0.2s;  MAKE SURE TO COME BACK TO THIS!!!!!!!!!!!!!!! */
+}
+
+nav a:not(.navbar-brand):hover {
+  margin-bottom: 10px;
+  border-bottom-width: 4px;
+  text-decoration: none;
+}
+
+/* nav a:not(.navbar-brand):hover {
+  border-bottom-width: 4px;
+  text-decoration: none;
+}
+nav li {
+  position: relative;
+}
+.navbar-brand {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.in ul:not(.dropdown-menu), .collapsing ul:not(.dropdown-menu) {
+  display: block !important;
+}
+@media (min-width: 768px) and (max-width: 1281px) {
+  nav ul {
+    display: none;
+  }
+  .navbar-toggle {
+    display: block !important;
+  }
+  .navbar-header {
+    float: none;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav {
+    margin: 7.5px -15px;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+ */
